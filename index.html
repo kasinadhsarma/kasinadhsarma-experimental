@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/icon.png">
+
+    <title>kasinadhsarma</title>
+</head>
+<body>
+    
+<a-scene>
+    <a-camera position='0 0 3' user-height='0'></a-camera>
+
+    <a-sphere src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/space/earth_atmos_4096.jpg" radius="1.5" segments-height="53"> 
+       <a-animation attribute="rotation"
+                dur="10000"
+                fill="forwards"
+                to="0 360 0"
+                easing="linear"
+                repeat="indefinite"></a-animation>
+    </a-sphere>
+
+    <a-sky segments-height="100" segments-width="100"  src="https://1.bp.blogspot.com/-4CHlBxsvQ_0/UrxJVGBY_tI/AAAAAAAAAWo/OK14DV9oCaQ/s1600/Christmas+Sky+Full+Of+Stars.jpg" color="#555" rotation="0 -90 0"></a-sky>
+</a-scene> 
+
+</body>
+</html>

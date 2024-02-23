@@ -1,0 +1,10 @@
+body {
+    margin: 0; 
+    overflow: hidden; /* Hide scrollbars, let 3D take over */
+    background-color: #000; /* Space-like! */
+}
+
+#canvas-container {
+    width: 100%;   
+    height: 100vh; 
+}
