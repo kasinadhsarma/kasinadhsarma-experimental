@@ -1,6 +1,6 @@
 
 body{
-    background-image:url('img/Full Of Stars.jpg');
+    background-image:url('https://1.bp.blogspot.com/-4CHlBxsvQ_0/UrxJVGBY_tI/AAAAAAAAAWo/OK14DV9oCaQ/s1600/Christmas+Sky+Full+Of+Stars.jpg');
   }
   .earth {
       width: 300px;
@@ -31,7 +31,7 @@ body{
       width: 200%;
       height: 100%;
       animation: spin 30s linear alternate infinite;
-      background: url('img/earth_atmos_4096.jpg');
+      background: url('https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/space/earth_atmos_4096.jpg');
       /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg */
       background-size: cover;
     }
